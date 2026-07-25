@@ -18,6 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Toaster } from "@/components/ui/sonner";
+import logo from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -83,7 +84,11 @@ function Nav() {
     <header className="sticky top-0 z-40 border-b border-neutral-200 bg-white text-neutral-900 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <a href="#top" className="flex items-center gap-3 group">
-          <img src={logoAsset.url} alt="Hamza Autos logo" className="h-10 w-auto sm:h-11 transition-smooth group-hover:scale-105" />
+         <img
+  src={logo}
+  alt="Hamza Autos logo"
+  className="h-10 w-auto sm:h-11 transition-smooth group-hover:scale-105"
+/>
           <div className="leading-none">
             <div className="font-display text-xl font-bold tracking-wider text-neutral-900 sm:text-2xl">HAMZA AUTOS</div>
             <div className="text-[10px] uppercase tracking-[0.25em] text-neutral-500">Global Parts Sourcing</div>
