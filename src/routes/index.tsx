@@ -85,10 +85,10 @@ function Nav() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <a href="#top" className="flex items-center gap-3 group">
           <img
-  src="/logo.png"
-  alt="Hamza Autos logo"
-  className="h-10 w-auto sm:h-11 transition-smooth group-hover:scale-105"
-/>
+            src={logo}
+            alt="Hamza Autos logo"
+            className="h-10 w-auto sm:h-11 transition-smooth group-hover:scale-105"
+          />
           <div className="leading-none">
             <div className="font-display text-xl font-bold tracking-wider text-neutral-900 sm:text-2xl">HAMZA AUTOS</div>
             <div className="text-[10px] uppercase tracking-[0.25em] text-neutral-500">Global Parts Sourcing</div>
@@ -478,7 +478,7 @@ function Footer() {
     <footer className="border-t border-border bg-background">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-10 sm:flex-row sm:px-6 lg:px-8">
         <div className="flex items-center gap-3">
-         <img src={newLogo} alt="" className="h-8 w-auto" aria-hidden />
+          <img src={logo} alt="" className="h-8 w-auto" aria-hidden />
           <div className="font-display text-lg tracking-wider">HAMZA AUTOS</div>
         </div>
         <div className="text-xs text-muted-foreground">© {new Date().getFullYear()} Hamza Autos. Global parts, delivered to Pakistan.</div>
