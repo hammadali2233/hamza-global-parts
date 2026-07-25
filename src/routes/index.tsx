@@ -5,8 +5,8 @@ import { z } from "zod";
 import { Globe2, Search, PackageCheck, Truck, ShieldCheck, Clock, Wrench, Mail, Phone, MapPin, ArrowRight, CheckCircle2, MessageCircle, BadgeCheck, FileCheck2, Award } from "lucide-react";
 
 const BUSINESS_EMAIL = "hamzaautos.isbpk@gmail.com";
-const BUSINESS_PHONE_DISPLAY = "+92 331 6133937";
-const BUSINESS_WHATSAPP = "923316133937"; // E.164 without +
+const BUSINESS_PHONE_DISPLAY = "+971 56 171 8762";
+const BUSINESS_WHATSAPP = "971561718762"; // E.164 without +
 const BUSINESS_ADDRESS = "Basement 2C, Adeel Plaza, Fazal-e-Haq Road, Blue Area, Islamabad, Pakistan, 44000";
 
 import logoAsset from "@/assets/hamza-autos-logo.svg.asset.json";
